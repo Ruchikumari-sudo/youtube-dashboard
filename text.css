@@ -1,0 +1,47 @@
+
+  p{
+    font-family:Roboto;
+  }
+  .title{
+    
+    font-size:30px;
+    font-weight:bold;
+    text-align:left;
+    width:500px;
+    line-height:40px;
+    margin-bottom:0px;
+  }
+  .view{
+    
+    font-size:22px;
+    margin-top:6px;
+    color:rgb(96,96,96);
+    margin-bottom:0px;
+  }
+  .name{
+  
+    color:rgb(96,96,96);
+    font-size:25px;
+    margin-top:15px;
+
+
+  }
+  .content{
+    font-size:32px;
+    width:600px;
+    color:rgb(96,96,96);
+  }
+  .shop{
+    font-size:20px;
+    text-align:center;
+    background-color:rgb(227, 65, 64);
+    margin-top:100px;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .lin:hover{
+    text-decoration:underline;
+    cursor:pointer;
+
+  }

@@ -1,38 +1,129 @@
 <style>
-    .request{
-        background-color:black;
-        color:white;
-        cursor:pointer;
-        height:36px;
-        width:100px;
-    }
-    .Cart{
-        background-color:rgba(255, 216, 20);
-        border:none;
-        height:38px;
-        width:180px;
-        border-radius:36px;
-        margin-left:8px;
-    }
-    .git{
-        background-color:rgb(46, 164, 79);
-        margin-left:8px;
-        border-radius:2px;
-        font-weight:bold;
-        border:none;
-        height:36px;
-        width:75px;
-        color:white;
+  .Uber{
+    background-color:black;
+    color:white;
+    border:none;
+    height:27px;
+    cursor:pointer;
+    transition:opacity 0.15s;
+  }
+  .Uber:hover{
+    opacity:0.8;
+  }
+  .Amazon{
+    background-color:rgb(255,216,20);
+    border:none;
+    border-radius:6px;
+    margin-left:8px;
+    width:105px;
+    height:27px;
+    cursor:pointer;
+    transition:opacity 0.15s;
+  }
+  .Amazon:hover{
+    background-color:rgba(255,216,20,0.8);
+  }
+  .Git{
+    background-color:rgb(46,164,79);
+    border:none;
+    color:white;
+    font-weight:bold;
+    margin-left:8px;
+    border-radius:4px;
+    width:70px;
+    height:27px;
+    cursor:pointer;
+    
+  }
+  .Git:hover{
+    box-shadow:5px 5px 10px rgba(0,0,0,0.3);
+  }
+  .Bootstrap{
+    background-color:rgb(121,82,179);
+    border:none;
+    color:white;
+    width:100px;
+    height:27px;
+    font-weight:bold;
+    border-radius:4px;
+    cursor:pointer;
+    transition:opacity 0.1s;
+  }
+  .Bootstrap:hover{
+    opacity:0.6;
+  }
+  .down{
+    color:rgb(108,117,125);
+    background-color:white;
+    border-style:solid;
+    border-color:rgb(108,117,125);
+    border-width:1px;
+    height:27px;
+    width:100px;
+    cursor:pointer;
+    transition:background-color 0.15s,color 0.15s;
 
-    }
+  }
+  .down:hover{
+    background-color:rgb(108,117,125);
+    color:white;
+  }
+  .Linkedin{
+    background-color: rgb(10,102,194);
+    color:white;
+    font-weight:bold;
+    height:27px;
+    width:200px;
+    border:none;
+    border-radius:13.5px;
+    margin-left:8px;
+    margin-right:8px;
+    transition:background-color 0.15s;
+    cursor:pointer;
 
+  }
+  .Linkedin:hover{
+    background-color:rgba(10,102,194,0.7);
+  }
+  .save{
+    cursor:pointer;
+    border-color:rgb(10,102,194);
+    background-color:white;
+    color:rgb(10,102,194);
+    height:27px;
+    width:50px;
+    border-width:1px;
+    border-style:solid;
+    font-weight:bold;
+    border-radius:13px;
+
+  }
+  .save:hover{
+    border-width:1.5px;
+  }
 </style>
-<button class="request">
-    Request now
+
+
+
+
+<button class="Uber">
+  Request now
 </button>
-<button class="Cart">
-    Add to Cart
+<button class="Amazon">
+  Add to cart
 </button>
-<button class="git">
-    Sign up
+<button class="Git">
+  Sign up
+</button>
+<button class="Bootstrap">
+  Get Started
+</button>
+<button class="down">
+  Download
+</button>
+<button class="Linkedin">
+  Apply on company website
+</button>
+<button class="Save">
+  Save
 </button>
